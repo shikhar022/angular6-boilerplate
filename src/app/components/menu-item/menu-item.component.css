@@ -1,0 +1,16 @@
+li{
+    padding: 20px 5px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: #ddd;
+}
+
+a{
+    text-decoration: none;
+    color:#383333;
+    font-size: 1.10rem;
+    text-align: center; 
+}

@@ -1,0 +1,11 @@
+<mat-drawer-container class="sidenav-container">
+    <mat-drawer mode="side" opened>
+        <ul class="menu-container">
+            <menu-item *ngFor="let item of menu" [item] = "item"></menu-item>
+        </ul>
+    </mat-drawer>
+    <mat-drawer-content>
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+</mat-drawer-container>
+      
